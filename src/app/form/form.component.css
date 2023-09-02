@@ -1,0 +1,13 @@
+.card{
+    width:28%;
+    border: 3px solid black ;
+    border-radius: 4px;
+    margin-left: 34.5%;
+    margin-top: 13%;
+    box-shadow: 4px black;
+    text-align: center;
+    padding: 2%;
+}
+.card input{
+    margin-left: 5px;
+}

@@ -1,0 +1,17 @@
+.mat-card{
+    width:28%;
+    border: 3px solid black ;
+    border-radius: 4px;
+    margin-left: 34.5%;
+    margin-top: 8%;
+    box-shadow: 4px black;
+    text-align: center;
+    padding:2%;
+}
+.mat-h2{
+    color: rgb(233, 39, 129);
+
+}
+.mat-card-header{
+    text-align: center;
+}

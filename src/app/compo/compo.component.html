@@ -1,0 +1,13 @@
+<p>compo works!</p>
+<p>OneWayData Binding</p>
+<h3>{{title}}{{numA-numB}}</h3><!--String Interpolation-->
+<div><img src="{{imgLink}}"/></div>
+<h3>Calculation is {{numA+numB}}</h3><!--String Interpolation-->
+<img [src]="imgLink" /><!--Property Binding-->
+<h1>--EventBinding--</h1>
+<button (click)="onSave($event)">Click me</button><!--EventBinding-->
+<h2>Two-way Binding Example</h2>
+<input type="text" [(ngModel)]= "fullName"> <br><br>
+<p>{{fullName}}</p>
+<a [href]="Url">click me</a><br>
+<img src="https://th.bing.com/th/id/OIP.QGx_o3-drUZiUDhKE0E-GAHaF-?w=190&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7">
